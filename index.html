@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+<div class="left-container">
+  <h1>Learn to code by watching others</h1>
+
+  <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+  but understanding how developers think is invaluable. </p>
+</div>
+<div class="right-container">
+  <div class="form-header">
+  <p class="first"><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+  </div>
+  <div class="form-box">
+  <form id="form">
+    <div class="form-input">
+<input type="text" placeholder="First Name" id="firstName">
+<p class="error_msg" id="first_name_msg"></p>
+<img class="img-success" id="first_name_img" alt="Error" src="./images/icon-error.svg">
+</div>
+<div class="form-input">
+<input type="text" placeholder="Last Name" id="lastName">
+<p class="error_msg" id="last_name_msg"></p>
+<img class="img-success" id="last_name_img" alt="Error" src="images/icon-error.svg">
+</div>
+<div class="form-input">
+<input type="email" placeholder="Email Address" id="email">
+<p class="error_msg" id="email_msg"></p>
+<img class="img-success" id="email_img" alt="Error" src="images/icon-error.svg">
+</div>
+<div class="form-input">
+<input type="password" placeholder="Password" id="password">
+<p class="error_msg" id="password_msg"></p>
+<img class="img-success" id="password_img" alt="Error" src="images/icon-error.svg">
+</div>
+<button>Claim your free trial </button>
+<div class="terms">
+  <p class="second">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+  </div>
+</form>
+</div>
+
+</div>
+</div>
+ 
+  <script src="main.js"></script>
+</body>
+</html>
